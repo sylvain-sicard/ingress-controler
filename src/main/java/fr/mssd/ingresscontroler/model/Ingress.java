@@ -12,6 +12,18 @@ public class Ingress {
 	private Integer id;
 
 	protected String name;
+	
+	protected String serviceURL;
+	
+	protected boolean isDefault;
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
 	public String getName() {
 		return name;
@@ -20,12 +32,22 @@ public class Ingress {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Integer getId() {
-		return id;
+
+	public String getServiceURL() {
+		return serviceURL;
 	}
-	public void setId(Integer id) {
-		this.id = id;
+
+	public void setServiceURL(String serviceURL) {
+		this.serviceURL = serviceURL;
 	}
-	
+
+	public boolean isDefault() {
+		return isDefault;
+	}
+
+	public void setDefault(boolean isDefault) {
+		this.isDefault = isDefault;
+	}
+
 	
 }

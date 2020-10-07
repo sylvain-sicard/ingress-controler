@@ -1,8 +1,5 @@
 package fr.mssd.ingresscontroler.repository;
 
-import java.util.Collection;
-
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
 import fr.mssd.ingresscontroler.model.Ingress;
@@ -12,10 +9,5 @@ import fr.mssd.ingresscontroler.model.Ingress;
 
 public interface IngressRepository extends CrudRepository<Ingress, Integer> {
 	
-	@Query("SELECT v FROM Vintage v WHERE v.brewed = FALSE")
-	Collection<Ingress> findAllVintagesNotBrewed();
-	
-	@Query("SELECT v FROM Vintage v WHERE v.brewed = FALSE")
-	Ingress findUniqueVintageNotBrewed();
 
 }
