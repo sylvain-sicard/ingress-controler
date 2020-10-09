@@ -1,18 +1,20 @@
 Vue.use(vueMoment);
 
 const app = new Vue({
-
   el: '#wrapper',
-  data : {
+  data : { 
         ingresses: null
   },
   mounted () {
-  	axios
+    
+    axios
       .get('/ingress/all')
       .then(response => {
         this.ingresses = response.data;
+          $(document).ready(function() {
+          $('#dataTable').DataTable();
+        });
       });
+    
   }
 });
-
-

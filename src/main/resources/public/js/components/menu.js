@@ -2,10 +2,7 @@ Vue.component('menu-component',{
   data () {
     return {
       items : [
-        {label:"Keg types", img:"img/img_kegs-web.png", url:"kegtype-list.html"},
-        {label:"Beer kits", img:"img/img_wheat-web.png", url:"beerkit-list.html"},
-        {label:"Vintages", img:"img/img_beertap-web.png", url:"vintage-list.html"},
-        {label:"Kegs", img:"img/img_bottles-web.png", url:"keg-list.html"}
+        {label:"Ingress", img:"img/ingress.png", url:"ingress-list.html"}
 
       ]
     }
@@ -14,9 +11,9 @@ Vue.component('menu-component',{
   <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="menu-component">
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html"> 
       <div class="sidebar-brand-icon "> 
-        <img src="img/ic_launcher-web.png" width="50"> 
+        <img src="img/ingresscontroler.png" width="50"> 
       </div> 
-      <div class="sidebar-brand-text mx-3">Home Brewery</div> 
+      <div class="sidebar-brand-text mx-3">Ingress Controler</div> 
     </a> 
     <hr class="sidebar-divider my-0"/> 
     <div v-for="item in items">

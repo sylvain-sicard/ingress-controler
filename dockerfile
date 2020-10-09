@@ -11,7 +11,7 @@ ADD target/lib /usr/share/home-brewery/lib
 
 ARG JAR_FILE
 
-ADD target/${JAR_FILE} /usr/share/home-brewery/service.jar
+ADD target/${JAR_FILE} /usr/share/service.jar
  
 EXPOSE 8888
-ENTRYPOINT ["/usr/bin/java", "-jar", "/usr/share/home-brewery/service.jar"]
+ENTRYPOINT ["/usr/bin/java", "-jar", "/usr/share/service.jar"]

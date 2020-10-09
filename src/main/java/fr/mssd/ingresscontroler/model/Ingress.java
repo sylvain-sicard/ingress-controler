@@ -13,9 +13,11 @@ public class Ingress {
 
 	protected String name;
 	
+	protected String appCode;
+	
 	protected String serviceURL;
 	
-	protected boolean isDefault;
+	protected Integer nbAccess;
 
 	public Integer getId() {
 		return id;
@@ -41,12 +43,20 @@ public class Ingress {
 		this.serviceURL = serviceURL;
 	}
 
-	public boolean isDefault() {
-		return isDefault;
+	public Integer getNbAccess() {
+		return nbAccess;
 	}
 
-	public void setDefault(boolean isDefault) {
-		this.isDefault = isDefault;
+	public void setNbAccess(Integer nbAccess) {
+		this.nbAccess = nbAccess;
+	}
+
+	public String getAppCode() {
+		return appCode;
+	}
+
+	public void setAppCode(String appCode) {
+		this.appCode = appCode;
 	}
 
 	
