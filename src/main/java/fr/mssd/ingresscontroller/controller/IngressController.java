@@ -1,4 +1,4 @@
-package fr.mssd.ingresscontroler.controller;
+package fr.mssd.ingresscontroller.controller;
 
 import java.util.Collection;
 
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import fr.mssd.ingresscontroler.model.Code;
-import fr.mssd.ingresscontroler.model.Ingress;
-import fr.mssd.ingresscontroler.repository.CodeRepository;
-import fr.mssd.ingresscontroler.repository.IngressRepository;
+import fr.mssd.ingresscontroller.model.Code;
+import fr.mssd.ingresscontroller.model.Ingress;
+import fr.mssd.ingresscontroller.repository.CodeRepository;
+import fr.mssd.ingresscontroller.repository.IngressRepository;
 
 @CrossOrigin
 @Controller	

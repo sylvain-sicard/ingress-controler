@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fr.mssd</groupId>
-	<artifactId>ingress-controler</artifactId>
+	<artifactId>ingress-controller</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<name>Ingress Controler</name>  
 
@@ -90,7 +90,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>fr.mssd.ingresscontroler.Application</mainClass>
+							<mainClass>fr.mssd.ingresscontroller.Application</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

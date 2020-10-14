@@ -1,10 +1,10 @@
-package fr.mssd.ingresscontroler.repository;
+package fr.mssd.ingresscontroller.repository;
 
 import java.util.Collection;
 
 import org.springframework.data.repository.CrudRepository;
 
-import fr.mssd.ingresscontroler.model.Ingress;
+import fr.mssd.ingresscontroller.model.Ingress;
 
 // This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository
 // CRUD refers Create, Read, Update, Delete

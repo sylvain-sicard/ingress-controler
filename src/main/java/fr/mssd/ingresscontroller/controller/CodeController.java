@@ -1,11 +1,11 @@
-package fr.mssd.ingresscontroler.controller;
+package fr.mssd.ingresscontroller.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import fr.mssd.ingresscontroler.model.Code;
-import fr.mssd.ingresscontroler.repository.CodeRepository;
+import fr.mssd.ingresscontroller.model.Code;
+import fr.mssd.ingresscontroller.repository.CodeRepository;
 
 @CrossOrigin
 @Controller	

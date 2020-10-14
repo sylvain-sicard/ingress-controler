@@ -1,4 +1,4 @@
-package fr.mssd.ingresscontroler.model;
+package fr.mssd.ingresscontroller.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

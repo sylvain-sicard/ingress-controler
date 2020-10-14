@@ -13,7 +13,7 @@ Vue.component('menu-component',{
       <div class="sidebar-brand-icon "> 
         <img src="img/ingresscontroler.png" width="50"> 
       </div> 
-      <div class="sidebar-brand-text mx-3">Ingress Controler</div> 
+      <div class="sidebar-brand-text mx-3">Ingress Controller</div> 
     </a> 
     <hr class="sidebar-divider my-0"/> 
     <div v-for="item in items">

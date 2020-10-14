@@ -1,4 +1,4 @@
-package fr.mssd.ingresscontroler.controller;
+package fr.mssd.ingresscontroller.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
