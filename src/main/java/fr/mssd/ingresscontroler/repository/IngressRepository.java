@@ -1,5 +1,7 @@
 package fr.mssd.ingresscontroler.repository;
 
+import java.util.Collection;
+
 import org.springframework.data.repository.CrudRepository;
 
 import fr.mssd.ingresscontroler.model.Ingress;
@@ -10,6 +12,8 @@ import fr.mssd.ingresscontroler.model.Ingress;
 public interface IngressRepository extends CrudRepository<Ingress, Integer> {
 
 	Ingress findByAppCode(String appCode);
+	
+	Collection<Ingress> findByRouteType(String routeType);
 	
 
 }

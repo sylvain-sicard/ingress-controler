@@ -17,6 +17,8 @@ public class Ingress {
 	
 	protected String serviceURL;
 	
+	protected String routeType;
+	
 	protected Integer nbAccess;
 
 	public Integer getId() {
@@ -57,6 +59,14 @@ public class Ingress {
 
 	public void setAppCode(String appCode) {
 		this.appCode = appCode;
+	}
+
+	public String getRouteType() {
+		return routeType;
+	}
+
+	public void setRouteType(String routeType) {
+		this.routeType = routeType;
 	}
 
 	

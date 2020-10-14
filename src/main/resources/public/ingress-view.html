@@ -46,8 +46,9 @@
               </h1>
             </div>
             <div class="card-body">
-              <p>{{ingress.appCode}}</p>
-              <p>{{ingress.serviceURL}}</p>
+              <p>App code: {{ingress.appCode}}</p>
+              <p>Service url : <a :href="ingress.serviceURL">{{ingress.serviceURL}}</a></p>
+              <p>Route type : {{ingress.routeType}}</p>
               <p>Nb access : {{ingress.nbAccess}}</p>
               
               <hr/>

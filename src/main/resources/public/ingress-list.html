@@ -53,19 +53,19 @@
                   <thead>
                     <tr>
                       <th>Name</th>
-                      <th>App Code</th>
+                      <th>Route type</th>
                     </tr>
                   </thead>
                   <tfoot>
                     <tr>
                       <th>Name</th>
-                      <th>App Code</th>
+                      <th>Route type</th>
                     </tr>
                   </tfoot>
                   <tbody>
                     <tr v-for="ingress in ingresses">
                       <td><a :href="'/ingress-view.html?id='+ingress.id">{{ingress.name}}</a></td>
-                      <td><a :href="'/ingress-view.html?id='+ingress.id">{{ingress.appCode}}</a></td>
+                      <td><a :href="'/ingress-view.html?id='+ingress.id">{{ingress.routeType}}</a></td>
                     </tr>
                   </tbody>
                 </table>
